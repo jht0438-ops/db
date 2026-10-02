@@ -139,7 +139,7 @@ if page == "1. 분석 개요":
     if "show_program_intro" not in st.session_state:
         st.session_state.show_program_intro = False
 
-    if st.button("이 프로그램이 무엇인가요?", use_container_width=True):
+    if st.button("이 프로그램 상세설명 보기", use_container_width=True):
         st.session_state.show_program_intro = not st.session_state.show_program_intro
 
     if st.session_state.show_program_intro:
